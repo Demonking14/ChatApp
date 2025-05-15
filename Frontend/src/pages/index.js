@@ -1,10 +1,10 @@
 
-import Home from "./Home";
-import Login from "./Login";
-import Logout from "./Logout";
+import Home from "./HomePage";
+import Login from "./LoginPage";
+import Logout from "./LogOutPage";
 import Notification from "./Notification";
 import OnBoarding from "./OnBoarding";
 import SignUp from './SignUpPage';
-import ChatPage from "./Chat";
-import CallPage from "./call";
+import ChatPage from "./ChatPage";
+import CallPage from "./CallPage";
 export {Home , Login , Logout , Notification , OnBoarding , SignUp, ChatPage ,CallPage}
