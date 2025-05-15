@@ -23,8 +23,6 @@
 - **Express** & **Mongoose** for server and database
 - **bcryptjs** for password hashing
 - **jsonwebtoken** for secure authentication
-- **multer** for file uploads
-- **cloudinary** for image hosting
 - **stream-chat** for real-time communication
 - **dotenv**, **cookie-parser**, **cors** for configuration and security
 
