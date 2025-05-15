@@ -15,6 +15,7 @@ import useAuthUser from "./hooks/useAuthUser";
 import { Toaster } from "react-hot-toast";
 import Layout from "./components/Layout";
 import { useThemeStore } from "./store/useThemeStore";
+import Friends from "./pages/FriendsPage";
 
 function App() {
   // const {theme} = useThemeStore();
@@ -85,6 +86,16 @@ function App() {
           element={isAuthenticated && isOnBoarded ? (
             <Layout showSidebar={true}>
               <CallPage/>
+            </Layout>
+          ): (
+            <Navigate to={!isAuthenticated ? "/login" : "/onboarding"}/>
+          )}
+        />
+        <Route
+          path="/friends"
+          element={isAuthenticated && isOnBoarded ? (
+            <Layout showSidebar={true}>
+              <Friends/>
             </Layout>
           ): (
             <Navigate to={!isAuthenticated ? "/login" : "/onboarding"}/>

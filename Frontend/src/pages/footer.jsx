@@ -3,8 +3,8 @@ import { GithubIcon, LinkedinIcon } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="mt-12 py-6 bg-base-200 border-t border-base-300">
-      <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <footer className="mt-12 py-6 bg-base-200 border-t border-base-300 bottom-0">
+      <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4 bottom-0">
         <p className="text-sm text-base-content opacity-70">
           © {new Date().getFullYear()} Adarsh Kumar Jha. All rights reserved.
         </p>
