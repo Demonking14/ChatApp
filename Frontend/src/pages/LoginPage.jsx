@@ -24,8 +24,8 @@ function Login() {
       <div className="border border-primary/25 flex flex-col lg:flex-row w-full max-w-5xl mx-auto bg-base-100 rounded-xl shadow-lg overflow-hidden">
         <div className="w-full lg:w-1/2 p-4 sm:p-8 flex flex-col">
           <div className="mb-4 flex items-center justify-start gap-2">
-            <ShipWheelIcon className="size-9 text-primary" />
-            <span className="text-3xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-wider">
+           <img src="./logo.png" className="size-28"/>
+            <span className="text-3xl font-extrabold font-mono bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-wider ">
               ChatyFi
             </span>
           </div>
@@ -97,7 +97,7 @@ function Login() {
           <div className="max-w-md p-8">
             {/* Illustration */}
             <div className="relative aspect-square max-w-sm mx-auto">
-              <img src="/vc.svg" alt="Language connection illustration" className="w-full h-full" />
+              <img src="/videocall.svg" alt="Language connection illustration" className="w-full h-full" />
             </div>
 
             <div className="text-center space-y-3 mt-6">

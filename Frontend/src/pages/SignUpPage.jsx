@@ -31,7 +31,7 @@ function SignUp() {
         <div className="w-full lg:w-1/2 p-4 sm:p-8 flex flex-col">
           {/* LOGO */}
           <div className="mb-4 flex items-center jusitfy-start gap-2">
-            <ShipWheelIcon className="size-9 text-primary" />
+             <img src="./logo.png" className="size-28"/>
             <span className="text-3xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-wider">
               ChatyFi
             </span>
@@ -152,7 +152,7 @@ function SignUp() {
         <div className="hidden lg:flex w-full lg:w-1/2 bg-primary/10 items-center justify-center">
         <div className="max-w-md p-8">
           <div className="relative aspect-square max-w-sm mx-auto">
-            <img src="./vc.svg"  className="w-full h-full"/>
+            <img src="./videocall.svg"  className="w-full h-full"/>
             </div>
             <div className="text-center space-y-3 mt-6">
               <h2 className="text-xl font-semibold">Connect with language partners worldwide</h2>

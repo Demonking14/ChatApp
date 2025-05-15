@@ -20,16 +20,16 @@ function NavBar() {
           
           {/* Mobile Logo - always show on small devices */}
           <div className="lg:hidden">
-            <Link to="/" className="flex items-center gap-2.5">
-              <ShipWheelIcon className="size-7 text-primary" />
-              <span className="text-2xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-wider">
+            <Link to="/" className="flex items-center gap-1">
+              <img src="./logo.png" className="size-28"/>
+              <span className="text-2xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-wider lg:hidden">
                 ChatyFi
               </span>
             </Link>
           </div>
 
           {/* Chat Page Logo - only shows on larger screens */}
-          {isChatPage && (
+          {/* {isChatPage && (
             <div className="hidden lg:flex pl-5">
               <Link to="/" className="flex items-center gap-2.5">
                 <ShipWheelIcon className="size-9 text-primary" />
@@ -38,7 +38,7 @@ function NavBar() {
                 </span>
               </Link>
             </div>
-          )}
+          )} */}
 
           <div className="flex items-center gap-3 sm:gap-4 ml-auto">
             <Link to="/notifications">
