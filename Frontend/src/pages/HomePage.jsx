@@ -17,7 +17,7 @@ import FriendCard from "../components/FriendCard";
 import NoFriends from "../components/NoFriends";
 import { getLanguageFlag } from "../components/FriendCard";
 import { capitalize } from "../utils/capitalize";
-
+import Footer from "./footer";
 function Home() {
   const queryClient = useQueryClient();
   const [outgoingRequestId, setOutgoingRequestId] = useState(new Set());
@@ -193,8 +193,12 @@ function Home() {
           )}
         </section>
       </div>
+       <Footer/>
     </div>
+   
   );
+
+
 }
 
 export default Home;
